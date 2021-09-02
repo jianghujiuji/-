@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+body{
+    background-color: #f5f5f5; 
+}
+    
+.top{
+     width: 100%;
+     height: 27px;
+     background-image:url('../img/images/top_bg.jpg') ;   
+     background-repeat: repeat-x;
+}
+
+/* 让页面居中 */
+.top_content{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top_content li {
+    list-style-image: url('../img/images/li_bg.gif');
+    float: right; 
+    width: 70px;
+    /* 垂直方向上居中,通过设置行货和父元素的高度一致 */
+    line-height: 27px;
+}
+
+.top_content a:link, .top_content a:visited{
+    text-decoration: none;
+    color: #220101;
+}
+.top_content a:hover, .top_content a:active{
+    text-decoration: none;
+    color: #900;
+}
+
+/* 定义log的样式 */
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 80px;
+    background-color: #fff;
+}
+
+.logo_left{
+    width: 200px;
+    float: left;
+}
+
+.logo_right{
+    width: 300px;
+    float: right;
+    height: 28px;
+    margin-top: 30px;
+    color: #8e8e8e;
+}
+
+.logo_right img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.tel{
+    font-family: '微软雅黑';
+    font-size: 16px;
+    color: #c00;
+}
+
+
+/* 导航样式 */
+nav{
+    height: 40px;
+}
+
+.nav_left{
+    width: 10px;
+    background: url(../img/images/nav_left.jpg) no-repeat;
+    float: left;
+}
+
+.nav_mid{
+    width: 980px;
+    background:url(../img/images/nav_bg.jpg) repeat-x;
+    float: left;
+}
+
+.nav_right{
+    width: 10px;
+    background:url(../img/images/nav_right.jpg);
+    float: left;
+}
